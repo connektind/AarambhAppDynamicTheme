@@ -1,0 +1,113 @@
+<resources>
+    <string name="app_name">AarambhAppFinal</string>
+
+    <!--Login page-->
+    <string name="login_account">Login to your account</string>
+    <string name="email_mobile_no"><font size="16">Mobile number</font></string>
+    <string name="password"><font size="16">Password</font></string>
+    <string name="forget_passwprd"> Forgot Password? </string>
+    <string name="have_no_account">Dont Have an Account?</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="Sign_in">Sign In</string>
+    <!--Registeration page first-->
+    <string name="create_account">Create your account</string>
+    <string name="student_full_name"><font size="16">Enter Student’s full name</font></string>
+    <string name="mobile_number"><font size="16">Enter Mobile Number</font></string>
+    <string name="email"><font size="16">Enter Email</font></string>
+    <string name="city_nearest_location"><font size="16">City/Nearest Location</font></string>
+    <string name="register">Register</string>
+    <string name="submit">Submit</string>
+    <string name="alredy_account">Already Have an account?</string>
+
+    <string name="login">Login</string>
+    <!--Registeration part 2-->
+    <string name="select_DOB_student"><font size="16">Select Student’s Date of Birth</font></string>
+    <string name="student_gender"><font size="16">Select Student’s Gender</font></string>
+    <string name="student_class"><font size="16">Select Student Class</font></string>
+    <string name="guardian_name"><font size="16">Enter Guardian’s Name</font></string>
+    <string name="guarfian_number"><font size="16">Enter Guardian’s Mobile Number</font></string>
+    <string name="password_crete"><font size="16">Enter Your Password</font></string>
+    <string name="conform_password_crete"><font size="16">Confirm Your Password</font></string>
+
+
+    <!--DashBoard-->
+    <string name="hello">Hello  </string>
+    <string name="Ready_to_learn">Ready to learn?</string>
+    <string name="recommend_you">Recommended For You</string>
+    <string name="view_all">View All</string>
+    <string name="practice">Practice</string>
+    <string name="Test">Test</string>
+    <string name="video_lyrices">Yes, because Planet Earth is so vast,
+
+we divide it into different areas of study.
+
+Geology, oceanography, meteorology, and astronomy.
+
+
+
+Du du du du du, du du du da du, du du du
+
+Du du du du du, du du du du du, du du du
+
+
+
+A vulcanologist is a geologist who studies about volcanoes.
+
+A seismologist is a geologist who studies earthquakes.
+
+A palaeontologist is a geologist who studies the fossils from the ground.
+
+
+
+Yes, because Planet Earth is so vast,
+
+we divide it into different areas of study.
+
+
+
+Geology, oceanography, meteorology, and astronomy.
+
+Geology, oceanography, meteorology, and astronomy.
+
+
+
+Physical oceanographers study the waves and currents.
+
+Biological oceanographers study life in the ocean.
+
+A meteorologist is the kind of scientist
+
+who studies the weather and atmosphere.
+
+And then an astronomer will take it a step further
+
+with study of the stars.
+
+
+
+Yes, because Planet Earth is so vast,
+
+we divide it into different areas of study.
+
+
+
+Geology, oceanography, meteorology, and astronomy.
+
+Geology, oceanography, meteorology, and astronomy.
+
+</string>
+    <!--navigation Drawer menu-->
+    <string name="bookmarks">BookMarks</string>
+    <string name="notification">Notifications</string>
+    <string name="shear_app">Share The App</string>
+    <string name="parent_connect">Parent Connect</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="subscribe_now">Subscribe now</string>
+    <string name="term_condition">Terms and Condition</string>
+    <string name="NEXT">Next</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

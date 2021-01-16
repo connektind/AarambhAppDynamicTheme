@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/background_videolist"
+    tools:context=".activity.VideoListActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/transparent_videolist"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="match_parent"
+            android:background="@drawable/red_gradient"
+            android:id="@+id/video_list_background"
+            android:layout_height="170dp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:id="@+id/realtive_btn"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="30dp"
+            android:layout_height="wrap_content">
+            <Button
+                android:layout_width="35dp"
+                android:background="@drawable/ic_back"
+                android:backgroundTint="@color/white"
+                android:id="@+id/back_btn"
+                android:layout_height="35dp"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:orientation="vertical"
+                android:layout_marginRight="15dp"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="Science"
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:ellipsize="none"
+                    android:maxWidth="200dp"
+                    android:fontFamily="@font/futu_md"
+                    android:textColor="@color/white"
+                    android:id="@+id/subj_one_name"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="12 videos"
+                    android:id="@+id/number_of_video_red"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_below="@id/realtive_btn"
+            android:layout_height="match_parent">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <androidx.recyclerview.widget.RecyclerView
+                    android:layout_width="match_parent"
+                    android:id="@+id/red_theme_topiclist_video"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+            <!--            <include layout="@layout/red_theme_topic_list" />-->
+        </androidx.core.widget.NestedScrollView>
+
+    </RelativeLayout>
+</LinearLayout>

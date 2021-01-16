@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="20dp"
+        android:visibility="gone"
+        android:weightSum="2">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:layout_margin="10dp"
+            app:cardCornerRadius="22dp"
+            android:id="@+id/practices_red_cardview"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/practice_bg"
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/practice"
+                    android:textSize="16dp"
+                    android:fontFamily="@font/calibri_regular"
+                    android:textColor="@color/red"
+                    android:layout_weight="1.3"
+                    android:gravity="center"
+                    android:id="@+id/pratice"
+                    android:textStyle="normal"
+                    android:textAlignment="center"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="match_parent"
+                    android:id="@+id/pratice_background"
+                    android:background="@drawable/red_gradient_pratices"
+                    android:src="@drawable/practice_icon"
+                    android:padding="10dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            app:cardCornerRadius="22dp"
+            android:id="@+id/test_red_cardview"
+            android:layout_margin="10dp"
+            app:cardElevation="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/practice_bg"
+
+                android:weightSum="2">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/Test"
+                    android:layout_weight="1.3"
+                    android:gravity="center"
+                    android:textSize="16dp"
+                    android:id="@+id/test"
+                    android:textStyle="normal"
+                    android:fontFamily="@font/calibri_regular"
+                    android:textColor="@color/red"
+                    android:textAlignment="center"/>
+
+                <androidx.appcompat.widget.AppCompatImageView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.7"
+                    android:layout_height="match_parent"
+                    android:id="@+id/test_profile"
+                    android:background="@drawable/red_gradient_pratices"
+                    android:src="@drawable/test_icon"
+                    android:padding="15dp"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/chapter_list_recyclerview_sixth_std"
+            android:layout_height="wrap_content"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

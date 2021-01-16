@@ -1,0 +1,11 @@
+{
+  "BaseTheme": [
+    {
+      "Class_ID": "1",
+      "BaseImage": "https://i.pinimg.com/originals/92/42/05/924205ea89862667d9de018b820019fd.jpg",
+      "Transpent_Color": "#80FFFFFF",
+      "Base_color_one": "#C6426E",
+      "base_color_two": "#642B73"
+    }
+  ]
+}

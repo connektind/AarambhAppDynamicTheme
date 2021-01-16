@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/pratices_background"
+    tools:context=".activity.PraticesActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:id="@+id/transprent_test"
+        android:background="#A8FFFFFF"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="55dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Practice Questions"
+                android:textSize="22dp"
+                android:id="@+id/pratices_text"
+                android:textColor="@color/red"
+                android:layout_marginStart="20dp"
+                android:layout_centerVertical="true"
+                android:textStyle="bold"
+                android:fontFamily="@font/futu_md"
+                android:textColorHint="@color/gray"
+                android:layout_height="wrap_content"/>
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_alignParentEnd="true"
+                android:id="@+id/cancle_btn"
+                android:layout_marginEnd="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_cancel_icon_red"
+                android:layout_height="30dp"/>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/linear_layout_pratices"
+            android:layout_marginTop="25dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="1"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/futu_md"
+                    android:id="@+id/practice_question_count"
+                    android:textColor="@color/red"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:text="/"
+                    android:id="@+id/pratices_slash"
+                    android:textSize="18dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/futu_md"
+                    android:textColor="@color/red"
+                    android:layout_height="wrap_content"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/futu_md"
+                    android:text="20"
+                    android:id="@+id/test_no_total_question"
+                    android:textColor="@color/red"
+                    android:textSize="18dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="20dp"
+                android:paddingEnd="20dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text=""
+                    android:textColor="@color/black"
+                    android:id="@+id/pratice_question"
+                    android:textSize="16dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_height="wrap_content"/>
+                <RadioGroup
+                    android:layout_width="match_parent"
+                    android:id="@+id/radiogroup_btn"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content">
+                </RadioGroup>
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/practices_previous_btn"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_gray_btn"
+                android:fontFamily="@font/calibri_regular"
+                android:text="Previous"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/next_pratices"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="25dp"
+                android:layout_marginEnd="20dp"
+                android:layout_weight="1"
+                android:background="@drawable/btn_login_bg"
+                android:fontFamily="@font/calibri_regular"
+                android:text="Next"
+                android:textColor="@color/white"
+                android:textSize="18dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

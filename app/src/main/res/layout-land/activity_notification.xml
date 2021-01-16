@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/notification_background"
+    tools:context=".activity.NotificationActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/transprent_notification"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <!--        <RelativeLayout-->
+        <!--            android:id="@+id/realtive_btn"-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:padding="15dp">-->
+
+        <!--            <ImageView-->
+        <!--                android:id="@+id/back_btn_notification"-->
+        <!--                android:layout_width="35dp"-->
+        <!--                android:layout_height="35dp"-->
+        <!--                android:fitsSystemWindows="true"-->
+        <!--                android:scaleType="fitXY"-->
+        <!--                android:src="@drawable/ic_backarrow_icon_red" />-->
+
+        <!--            <LinearLayout-->
+        <!--                android:layout_width="wrap_content"-->
+        <!--                android:layout_height="wrap_content"-->
+        <!--                android:layout_alignParentEnd="true"-->
+        <!--                android:layout_marginRight="15dp"-->
+        <!--                android:orientation="vertical">-->
+
+        <!--                <TextView-->
+        <!--                    android:id="@+id/notfication_name"-->
+        <!--                    android:layout_width="wrap_content"-->
+        <!--                    android:layout_height="wrap_content"-->
+        <!--                    android:ellipsize="none"-->
+        <!--                    android:layout_gravity="center"-->
+        <!--                    android:gravity="center"-->
+        <!--                    android:layout_marginTop="10dp"-->
+        <!--                    android:fontFamily="@font/futu_md"-->
+        <!--                    android:text="Notification"-->
+        <!--                    android:textColor="@color/red"-->
+        <!--                    android:textSize="24dp"-->
+        <!--                    android:textStyle="bold" />-->
+        <!--            </LinearLayout>-->
+        <!--        </RelativeLayout>-->
+        <RelativeLayout
+            android:id="@+id/realtive_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/back_btn_notification"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_backarrow_icon_red"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/notfication_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:fontFamily="@font/futu_md"
+                    android:text="Notification"
+                    android:textColor="@color/red"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+            <ImageView
+                android:layout_width="220dp"
+                android:scaleType="fitXY"
+                android:id="@+id/notfication_icon_red"
+                android:layout_height="220dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:textColor="@color/text_color"
+                android:fontFamily="@font/futu_md"
+                android:text="You Have No Notification Right Now."
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:textStyle="normal"
+                android:textSize="16dp"
+                android:textAlignment="center"
+                android:fontFamily="@font/futu_md"
+                android:text="Come Back later."
+                android:textColor="@color/text_color"
+                android:layout_height="wrap_content"/>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

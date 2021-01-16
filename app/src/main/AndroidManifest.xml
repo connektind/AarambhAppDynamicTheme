@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.aarambhappdynamictheme">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aarambh_logo"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@drawable/aarambh_logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".activity.LiveVideoActivity"/>
+        <activity android:name=".activity.TestListActivity" />
+        <activity android:name=".activity.TestRulesActivity" />
+        <activity android:name=".activity.PraticesListActivity" />
+        <activity android:name=".activity.ParentUpdateActivity" />
+        <activity android:name=".activity.ThankYouActivity" />
+        <activity android:name=".activity.TermsCondiationActivity" />
+        <activity android:name=".activity.SubscribeNowActivity" />
+        <activity android:name=".activity.TestChapterListActivity" />
+        <activity android:name=".activity.PaticesChapterListActivity" />
+        <activity android:name=".activity.ParentContectUsActivity" />
+        <activity android:name=".activity.StudentRegisterActivity" />
+        <activity android:name=".activity.ParentRegisterActivity" />
+        <activity android:name=".activity.StudentListShowActivity" />
+        <activity android:name=".activity.ParentDashBoardActivity" />
+        <activity android:name=".activity.TestAcivity" />
+        <activity android:name=".activity.PraticesActivity" />
+        <activity android:name=".activity.PlayVideoActivity" />
+        <activity android:name=".activity.VideoListActivity" />
+        <activity android:name=".activity.UpdateProfileActivity" />
+        <activity android:name=".activity.ProfileShowActivity" />
+        <activity android:name=".activity.SubjectActivity" />
+        <activity android:name=".activity.NotificationActivity" />
+        <activity android:name=".activity.DashBoardActivity" />
+        <activity android:name=".activity.ContactUsActivity" />
+        <activity android:name=".activity.BookMarkActivity" />
+        <activity android:name=".activity.CreatePasswordActivity" />
+        <activity android:name=".activity.VerificationActivity" />
+        <activity android:name=".activity.ForgetPasswordActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activity.LoginActivity" />
+        <activity android:name=".activity.ViewLiveClassActivity" />
+        <activity android:name=".activity.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

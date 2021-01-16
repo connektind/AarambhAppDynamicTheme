@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_transprent_back"
+    android:gravity="center">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="50dp"></View>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dp">
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_gravity="center"
+            android:id="@+id/correct_emoji"
+            android:background="@drawable/correct_emoji1"
+            android:layout_height="100dp"/>
+        <TextView
+            android:id="@+id/correctText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Correct"
+            android:fontFamily="@font/calibri_regular"
+            android:textColor="@color/green"
+            android:gravity="center"
+            android:textSize="16dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:visibility="gone"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:id="@+id/correct_ans_id"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Answer:-"
+                android:textColor="@color/green"
+                android:textSize="16dp"
+                android:textStyle="bold"
+                android:fontFamily="@font/calibri_regular"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Answer"
+                android:id="@+id/answer_id"
+                android:textColor="@color/black"
+                android:textSize="14dp"
+                android:fontFamily="@font/calibri_regular"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_marginTop="10dp"-->
+<!--            android:layout_marginLeft="10dp"-->
+<!--            android:layout_marginRight="10dp"-->
+<!--            android:layout_marginBottom="20dp"-->
+<!--            android:layout_height="wrap_content">-->
+
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:text="Explanation:-"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:textSize="16dp"-->
+<!--                android:textStyle="bold"-->
+<!--                android:fontFamily="@font/calibri_regular"-->
+<!--                android:layout_height="wrap_content"/>-->
+<!--&lt;!&ndash;            <TextView&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:text="Here the description of the question and short solution here plzz check on it."&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textColor="@color/black"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:textSize="14dp"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:id="@+id/ans_explain"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:fontFamily="@font/calibri_regular"&ndash;&gt;-->
+<!--&lt;!&ndash;                android:layout_height="wrap_content"/>&ndash;&gt;-->
+
+
+<!--        </LinearLayout>-->
+    </LinearLayout>
+
+</LinearLayout>

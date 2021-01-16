@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/test_rules_background"
+    tools:context=".activity.TestRulesActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/transrent_test_rules"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:id="@+id/realtive_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/back_btn_test_rules"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:fitsSystemWindows="true"
+                android:background="@drawable/ic_backarrow_icon_red"
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/subscribe_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:fontFamily="@font/futu_md"
+                    android:text="Test"
+                    android:textColor="@color/red"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="30dp"
+                android:text="Before starting the test, read the instructions carefully"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="The test will be chapter-wise."
+                android:textColor="@color/black"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="2.For attempting each question, you will be given a specific period of time."
+                android:textColor="@color/black"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="10dp"
+                android:text="3.When the time is over, the current question will disappear and the next question will appear."
+                android:textColor="@color/black"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="4.When you attempt the question before time, you can click on the “Next” button and move to the next question."
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="5.Each question can be answered only once after that it will not be shown again."
+                android:textColor="@color/black"
+                android:layout_marginTop="10dp"
+                android:layout_gravity="bottom|center"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="150dp"
+                android:text="Start Test"
+                android:textStyle="bold"
+                android:id="@+id/start_test"
+                android:textColor="@color/white"
+                android:layout_marginTop="150dp"
+                android:layout_gravity="bottom|center"
+                android:background="@drawable/btn_login_bg"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</LinearLayout>

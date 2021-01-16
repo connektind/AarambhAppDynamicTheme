@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:background="@drawable/sharebg"
+            android:layout_height="wrap_content">
+            <!--    <View-->
+            <!--        android:layout_width="match_parent"-->
+            <!--        android:layout_height="50dp"></View>-->
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="20dp"
+                android:id="@+id/logo_aarambh"
+                android:background="@drawable/white_logo"
+                android:layout_height="70dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Share The Love Of Learning."
+                android:textColor="@color/white"
+                android:fontFamily="@font/calibri_regular"
+                android:textAlignment="center"
+                android:textSize="18dp"
+                android:layout_below="@id/logo_aarambh"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+        </RelativeLayout>
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

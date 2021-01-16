@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/contact_us_background"
+    tools:context=".activity.ContactUsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/contact_us_transprent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:id="@+id/realtive_btn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:padding="15dp">
+
+            <ImageView
+                android:id="@+id/back_btn_contact"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_backarrow_icon_red"
+                />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_marginRight="15dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/contact_us_red_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="none"
+                    android:fontFamily="@font/futu_md"
+                    android:text="Contact Us"
+                    android:textColor="@color/red"
+                    android:textSize="24dp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="20dp">
+
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calibri_regular"
+                    android:hint="Enter Email Address"
+                    android:id="@+id/email_cont"
+                    android:textSize="16dp" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp">
+
+                <com.google.android.material.textfield.TextInputEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/calibri_regular"
+                    android:hint="Enter Your Feedback Here"
+                    android:id="@+id/full_name_cont"
+                    android:maxLength="30"
+                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ "
+                    android:inputType="textPersonName"
+                    android:textSize="16dp" />
+
+            </com.google.android.material.textfield.TextInputLayout>
+
+
+            <!--            <LinearLayout-->
+            <!--                android:layout_width="match_parent"-->
+            <!--                android:gravity="center"-->
+            <!--                android:layout_height="150dp"-->
+            <!--                android:layout_marginTop="20dp"-->
+            <!--                android:layout_below="@id/toolbar"-->
+            <!--                android:background="@drawable/feedbackderw"-->
+            <!--                android:layout_weight="1">-->
+            <!--                <EditText-->
+            <!--                    android:layout_width="match_parent"-->
+            <!--                    android:layout_height="wrap_content"-->
+            <!--                    android:layout_gravity="start"-->
+            <!--                    android:gravity="start"-->
+            <!--                    android:hint="Enter Your Feedback Here"-->
+            <!--                    android:paddingLeft="5dp"-->
+            <!--                    android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890.अआइउऊऋएऐओऔ।१२३४५६७८९० ा ि ी ु ू ृ े ै ो ौ ं ः ककाकिकीकुकूकेकैकोकौकंकःखखाखिखीखुखूखेखैखोखौखंखःगगागिगीगुगूगेगैगोगौगंगंघघाघिघीघुघूघेघैघोघौघंघःचचाचिचीचुचूचेचैचोचौचंचःछछाछिछीछुछूछेछैछोछौछंछःजजाजिजीजुजूजेजैजो जौजंजःझझाझिझीझुझूझेझैझोझौझंझःटटाटिटीटुटूटेटैटोटौटंटःठठाठीठीठुठूठेठैठोठौठंठःडडाडिडीडुडूडेडैडोडौडंडःढढाढिढीढुढूढेढैढोढौढंढःणणाणिणीणुणूणेणैणोणौणंणःततातितीतुतूतेतैतोतौतंतःथथाथिथीथुथूथेथैथोथौथंथःददादिदीदुदूदेदैदोदौदंदःधधाधिधीधुधूधेधैधोधौधंधःननानिनीनुनूनेनेनोनौनंनःपपापिपीपुपूपेपौपोपौपंपःफफाफिफीफुफूफेफैफ़ोफौफंफःबबाबिबीबुबूबेबैबोबौबंबःभभाभिभीभुभूभेभभोभौभंभःममामिमीमुमूमेमैमोमौमंमःययायियीयुयूयेयैयोयौयंयःररारिरीरुरूरेरैरोरौरंरःललालिलीलुलूलेलैलोलौलंलःववाविवीवुवूवेवैवोवौवंवःशशाशिशीशुशूशेशैशोशौशंशःषषाषिषीषुषूषेषैषोषौषंषःससासिसीसुसूसेसैसोसौसंसःहहाहिहीहुहूहेहैहोहौहंहःक्षक्षाक्षिक्षीक्षुक्षूक्षेक्षैक्षोक्षौक्षंक्षःज्ञज्ञाज्ञिज्ञीज्ञुज्ञूज्ञेज्ञैज्ञोज्ञौज्ञंज्ञःऀ ँ ं ः ऌ ई ळ ऴ ऺ ऻ ़ ऽ ा ि ी ु ू ृ ॄ ॅ ॆ े ै ॉ ॊ ो ौ ् ॎ ॏ ॐ ॑ ॒ ॓ ॔ ॕ ॖ ॗ ॠ ॡ ॢ ॣ ॰ ॱ ॶ ॷ ॸ ॹ ॺ ॻ ॼ ॽ ॾ ॿ꣠ ꣡ ꣢ ꣣ ꣤ ꣥ ꣦ ꣧ ꣨ ꣩ ꣪ ꣫ ꣬ ꣭ ꣮ ꣯ ꣰ ꣱ ꣲ ꣳ ꣴ	ꣵ ꣶ ꣷ ꣸ ꣹꣺  ꣻ ꣼ ꣽ"-->
+            <!--                    android:id="@+id/message_cont"-->
+            <!--                    android:layout_marginLeft="10dp"-->
+            <!--                    android:layout_marginRight="10dp"-->
+            <!--                    android:layout_marginBottom="10dp"-->
+            <!--                    android:inputType="textMultiLine"-->
+            <!--                    android:background="@null"-->
+
+            <!--                    />-->
+
+
+            <!--            </LinearLayout>-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center_vertical"
+            android:layout_weight="1">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_marginLeft="100dp"
+                android:layout_marginRight="100dp"
+                android:text="Send"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:id="@+id/send_data"
+                android:fontFamily="@font/calibri_regular"
+                android:background="@drawable/btn_login_bg"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+        <!--<LinearLayout-->
+        <!--    android:layout_width="match_parent"-->
+        <!--    -->
+        <!--    android:layout_height="0dp">-->
+        <!--        <Button-->
+        <!--            android:layout_width="match_parent"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_alignParentBottom="true"-->
+        <!--            android:background="@drawable/btn_login_bg"-->
+        <!--            android:text="Send"-->
+        <!--            android:textStyle="bold"-->
+        <!--            android:id="@+id/send_data"-->
+        <!--            android:layout_gravity="end"-->
+        <!--            android:textColor="@color/white" />-->
+        <!--</LinearLayout>-->
+
+
+    </LinearLayout>
+
+</LinearLayout>

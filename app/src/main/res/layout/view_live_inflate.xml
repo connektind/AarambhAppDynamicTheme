@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/white"
+       android:padding="10dp"
+
+    android:layout_marginBottom="40dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingHorizontal="10dp"
+        android:id="@+id/linearCard"
+        >
+        <TextView
+            android:id="@+id/txtLive"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="LIVE"
+            android:layout_gravity="end"
+            android:layout_marginRight="20dp">
+
+        </TextView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="131dp"
+            android:layout_weight="2"
+            android:orientation="horizontal"
+            android:paddingHorizontal="10dp"
+            android:paddingTop="10dp"
+            android:paddingBottom="-50dp">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/student_image"
+                    android:layout_width="86dp"
+                    android:layout_height="86dp"
+                    android:src="@drawable/correct_emoji"
+                    app:civ_border_color="#999"
+                    app:civ_border_width="3dp" />
+
+
+                <TextView
+                    android:id="@+id/studentname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="Demo Name"
+                    android:textColor="@color/red"
+                    android:textSize="17sp"
+                    ></TextView>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/school_logo"
+                android:layout_width="150dp"
+                android:layout_height="90dp"
+                android:layout_marginLeft="30dp"
+                android:padding="8dp"
+                android:scaleType="fitXY" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@color/black"
+            >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginStart="3dp"
+            android:layout_marginEnd="3dp"
+            android:weightSum="2">
+
+<!--            <LinearLayout-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:orientation="horizontal"-->
+<!--                android:layout_marginStart="3dp"-->
+<!--                android:layout_marginEnd="3dp"-->
+<!--                android:layout_weight="1"-->
+<!--                >-->
+<!--            <TextView-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="match_parent"-->
+<!--                android:text="ID No. : "-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="17sp"-->
+<!--                ></TextView>-->
+
+<!--            <TextView-->
+<!--                android:id="@+id/txtID"-->
+<!--                android:layout_width="wrap_content"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:text="452001A8"-->
+<!--                android:textColor="@color/white"-->
+<!--                android:textSize="17sp"-->
+<!--                ></TextView>-->
+<!--            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Class : "
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                ></TextView>
+
+            <TextView
+                android:id="@+id/txtClass"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="6th"
+                android:textColor="@color/white"
+                android:textSize="17sp"
+                ></TextView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:layout_weight="1"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Phone : "
+                    android:textColor="@color/white"
+                    android:textSize="17sp"
+                    ></TextView>
+
+                <TextView
+                    android:id="@+id/txtPhNumber"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="9165478920"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    ></TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:weightSum="2"
+                >
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginStart="3dp"-->
+<!--                    android:layout_marginEnd="3dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    >-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:text="Blood : "-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="17sp"-->
+<!--                        ></TextView>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtbloodGroup"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="B+"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="17sp"-->
+<!--                        ></TextView>-->
+<!--                </LinearLayout>-->
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_marginStart="3dp"
+                    android:layout_marginEnd="3dp"
+                    android:layout_weight="2"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Parent Name : "
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        ></TextView>
+
+                    <TextView
+                        android:id="@+id/txtFatherName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Prakash Raj"
+                        android:textColor="@color/white"
+                        android:textSize="17sp"
+                        ></TextView>
+
+                </LinearLayout>
+
+<!--             <LinearLayout-->
+<!--                 android:layout_width="0dp"-->
+<!--                 android:layout_height="wrap_content"-->
+<!--                 android:orientation="horizontal"-->
+<!--                 android:layout_marginStart="3dp"-->
+<!--                 android:layout_marginEnd="3dp"-->
+<!--                 android:layout_weight="1"-->
+<!--                 >-->
+<!--                 <TextView-->
+<!--                     android:layout_width="wrap_content"-->
+<!--                     android:layout_height="wrap_content"-->
+<!--                     android:text="Mother : "-->
+<!--                     android:textColor="@color/white"-->
+<!--                     android:textSize="17sp"-->
+<!--                     ></TextView>-->
+
+<!--                 <TextView-->
+<!--                     android:id="@+id/txtMotherName"-->
+<!--                     android:layout_width="wrap_content"-->
+<!--                     android:layout_height="wrap_content"-->
+<!--                     android:text="Sunita Raj"-->
+<!--                     android:textColor="@color/white"-->
+<!--                     android:textSize="17sp"-->
+<!--                     ></TextView>-->
+
+             </LinearLayout>
+
+            </LinearLayout>
+
+         <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="3dp"
+                android:layout_marginEnd="3dp"
+                android:weightSum="2"
+                >
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginStart="3dp"-->
+<!--                    android:layout_marginEnd="3dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    >-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="match_parent"-->
+<!--                        android:text="Phone : "-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="17sp"-->
+<!--                        ></TextView>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtPhNumber"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="9165478920"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="16sp"-->
+<!--                        ></TextView>-->
+<!--                </LinearLayout>-->
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="0dp"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:layout_marginStart="3dp"-->
+<!--                    android:layout_marginEnd="3dp"-->
+<!--                    android:layout_weight="1"-->
+<!--                    >-->
+<!--                    <TextView-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Mother : "-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="17sp"-->
+<!--                        ></TextView>-->
+
+<!--                    <TextView-->
+<!--                        android:id="@+id/txtMotherName"-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:text="Sunita Raj"-->
+<!--                        android:textColor="@color/white"-->
+<!--                        android:textSize="17sp"-->
+<!--                        ></TextView>-->
+
+<!--                </LinearLayout>-->
+
+            </LinearLayout>
+        </LinearLayout>
+        
+        
+    </LinearLayout>
+

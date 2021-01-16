@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#db3337</color>
+
+    <color name="transprent_dynamic">#CCFFFFFF</color>
+
+    <color name="black">#000000</color>
+    <color name="white">#FFFFFF</color>
+    <color name="red">#db3337</color>
+    <color name="subj_one_start">#00B7A5</color>
+    <color name="subj_one_end">#01648E</color>
+    <color name="rama">#013C51</color>
+    <color name="purpal">#b655a3</color>
+    <color name="gray">#d5d0cf</color>
+
+    <!--transparent color theme-->
+    <color name="black_transparnt">#8000</color>
+    <color name="rama_transprent">#7F01648E</color>
+    <color name="purpal_transprent">#CCb655a3</color>
+    <color name="green">#008b11</color>
+
+    <color name="dark_gray">#535353</color>
+
+
+    <color name="red_start">#E13337</color>
+    <color name="red_end">#BB3437</color>
+
+    <color name="blue_start">#FF008E9A</color>
+
+    <color name="blue_end">#FF01648E</color>
+
+    <color name="blue_one">#00B7A5</color>
+    <color name="blue_two">#01648E</color>
+
+    <color name="purpal_start">#8B008B</color>
+    <color name="purpal_end">#BA55D3</color>
+
+    <color name="purple_one">#5F0A87</color>
+    <color name="pural_two">#A4508B</color>
+
+    <color name="text_color">#3B3B3C</color>
+    <color name="hint_color">#ABABAB</color>
+
+    <color name="milatary_green_dark">#4B5320</color>
+    <color name="milatary_green_end">#BAB86C</color>
+
+</resources>

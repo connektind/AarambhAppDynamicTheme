@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context=".activity.PlayVideoActivity"
+    android:id="@+id/play_video_background"
+    xmlns:tools="http://schemas.android.com/tools">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:id="@+id/transparent_play_video"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:id="@+id/exo_player_relative_layout"
+            android:layout_height="wrap_content">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <com.google.android.exoplayer2.ui.PlayerView
+                    android:id="@+id/videoFullScreenPlayer"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    android:fitsSystemWindows="true"
+                    app:controller_layout_id="@layout/exo_player_control_view"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="1.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:player_layout_id="@layout/exo_simple_player_view"
+                    app:show_timeout="45000"
+                    app:resize_mode="fill"
+                    />
+
+                <ProgressBar
+                    android:id="@+id/spinnerVideoDetails"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="8dp"
+                    android:layout_marginBottom="8dp"
+                    android:indeterminate="true"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+            <ImageButton
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
+                android:id="@+id/back_player"
+                android:layout_marginBottom="8dp"
+                android:background="@drawable/ic_back"
+                android:backgroundTint="@color/white"
+                />
+        </RelativeLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Description"
+            android:id="@+id/description_text"
+            android:padding="10dp"
+            android:textColor="@color/red"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            >
+
+        </TextView>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtDesc"
+            android:padding="10dp"
+            android:textSize="18dp"
+            android:justificationMode="inter_word"
+            >
+        </TextView>
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <!--            <TextView-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:text="Topic Name"-->
+                <!--                android:padding="10dp"-->
+                <!--                android:id="@+id/topic_name_player"-->
+                <!--                android:textColor="@color/red"-->
+                <!--                android:textSize="18dp"-->
+                <!--                android:textStyle="bold"-->
+                <!--                android:layout_height="wrap_content"/>-->
+                <!--            <androidx.core.widget.NestedScrollView-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:layout_height="wrap_content">-->
+                <!--                <TextView-->
+                <!--                    android:id = "@+id/text_lyrices"-->
+                <!--                    android:textSize = "14dp"-->
+                <!--                    android:layout_width = "match_parent"-->
+                <!--                    android:ellipsize = "marquee"-->
+                <!--                    android:fadingEdge = "vertical"-->
+                <!--                    android:marqueeRepeatLimit = "marquee_forever"-->
+                <!--                    android:scrollHorizontally = "true"-->
+                <!--                    android:textColor = "@color/red"-->
+                <!--                    android:text = "@string/video_lyrices"-->
+                <!--                    android:layout_height = "wrap_content"-->
+                <!--                    android:singleLine = "false" />-->
+                <!--            </androidx.core.widget.NestedScrollView>-->
+                <!--            <View-->
+                <!--                android:layout_width="match_parent"-->
+                <!--                android:background="@color/black"-->
+                <!--                android:layout_margin="10dp"-->
+                <!--                android:layout_height="1dp"/>-->
+
+                <!--                <TextView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:text="Upcoming Video"-->
+                <!--                    android:padding="10dp"-->
+                <!--                    android:textColor="@color/red"-->
+                <!--                    android:textSize="18dp"-->
+                <!--                    android:textStyle="bold"-->
+                <!--                    android:layout_height="wrap_content"/>-->
+                <!--                <androidx.recyclerview.widget.RecyclerView-->
+                <!--                    android:layout_width="match_parent"-->
+                <!--                    android:id="@+id/upcoming_video_recyclerview"-->
+                <!--                    android:layout_height="wrap_content"/>-->
+
+
+            </LinearLayout>
+        </androidx.core.widget.NestedScrollView>
+    </LinearLayout>
+</LinearLayout>
